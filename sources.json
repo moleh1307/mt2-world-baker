@@ -1,0 +1,32 @@
+{
+  "client": {
+    "repo": "https://github.com/d1str4ught/m2dev-client",
+    "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52"
+  },
+  "editor": {
+    "repo": "https://github.com/Metin2Learn/ymir-work",
+    "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433"
+  },
+  "sdk": {
+    "repo": "https://github.com/NakiuS/Metin2Client",
+    "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3"
+  },
+  "recipes": [
+    "assets/Tree/ymir work/tree/b1_baobab_rt.spt",
+    "assets/Tree/ymir work/tree/b1_baobab_rt2.spt",
+    "assets/Tree/ymir work/tree/b1_beech_rt.spt",
+    "assets/Tree/ymir work/tree/b1_beech_rt2.spt",
+    "assets/Tree/ymir work/tree/b1_beech_rt4.spt",
+    "assets/Tree/ymir work/tree/b1_montereycypress_rt.spt",
+    "assets/Tree/ymir work/tree/b1_montereycypress_rt2.spt",
+    "assets/Tree/ymir work/tree/b1_montereycypress_rt3.spt",
+    "assets/Tree/ymir work/tree/b1_montereycypress_rt4.spt",
+    "assets/Tree/ymir work/tree/b1_montereycypress_rt5.spt",
+    "assets/Tree/ymir work/tree/b1_pagodatree_rt.spt",
+    "assets/Tree/ymir work/tree/b1_pagodatree_rt2.spt",
+    "assets/Tree/ymir work/tree/b1_pagodatree_rt3.spt",
+    "assets/Tree/ymir work/tree/b1_sassafras_rt_fall.spt",
+    "assets/Tree/ymir work/tree/b1_sassafras_rt_fall2.spt",
+    "assets/Tree/ymir work/tree/b3_beech_rt3.spt"
+  ]
+}
