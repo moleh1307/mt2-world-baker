@@ -1,0 +1,27 @@
+name: Bake original Pyungmoo trees
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  trees:
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download pinned public inputs
+        run: python prepare.py
+      - name: Compile 32-bit baker and bake sixteen recipes
+        shell: cmd
+        run: |
+          for /f "usebackq tokens=*" %%i in (`"%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -property installationPath`) do set VSROOT=%%i
+          call "%VSROOT%\VC\Auxiliary\Build\vcvars32.bat"
+          cl /nologo /EHsc /O2 /I sdk bake_spt.cpp /link sdk\SpeedTreeRT.lib /OUT:bake_spt.exe
+          if errorlevel 1 exit /b 1
+          bake_spt.exe --dir recipes baked
+          if errorlevel 1 exit /b 1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pyungmoo-original-trees
+          path: baked/
+          retention-days: 3
+          if-no-files-found: error
