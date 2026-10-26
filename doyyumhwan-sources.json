@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "sdk": [
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/include/SpeedTreeRT.h",
+      "target": "sdk/SpeedTreeRT.h",
+      "gitBlob": "301c5044e9e8a7743a2c1e1e5b1fb0f983a231a1",
+      "sha256": "262dce2d2ef6e1172de90413f4b3eadfad1385b4a569646077ecfc50de3c2e7b",
+      "bytes": 28110
+    },
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/library/SpeedTreeRT.lib",
+      "target": "sdk/SpeedTreeRT.lib",
+      "gitBlob": "d35e171b9ab182983f6f0f0f4fd03462055c9261",
+      "sha256": "beb0dcd40e7ee46158b6291b72d51a66c106d46dd87f6227802e17c9836be7e8",
+      "bytes": 50622
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "SpeedTreeRT.dll",
+      "target": "SpeedTreeRT.dll",
+      "gitBlob": "a16a441d475652d266bd5e5b5dbddc41ca8bf4ee",
+      "sha256": "ddba9b9b427d541ebc0bf1221fffc5d56a85d7b8ee0dfe6370a83a133da6967b",
+      "bytes": 1806336
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "gran211.dll",
+      "target": "gran211.dll",
+      "gitBlob": "b562905121e675ef9cbd9ee021f93e7308842496",
+      "sha256": "786954a7652133f793b1e974d791fed8d2ae24d5ad3accd92310d02ef18beca3",
+      "bytes": 672256
+    }
+  ],
+  "trees": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/b2_ivyspy_rt_winter.spt",
+      "target": "recipes/b2_ivyspy_rt_winter.spt",
+      "gitBlob": "6dffe59707db832b6dc627323aec2dffaf3adf81",
+      "sha256": "80422882e2d1ec63f6c5080c9c308634b8e8acc1342ebe1ebc74039fe2384631",
+      "bytes": 6580
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/b2_ivyspy_rt_winter2.spt",
+      "target": "recipes/b2_ivyspy_rt_winter2.spt",
+      "gitBlob": "5636c1818b65ff19c017fef2f57152ee2fadb002",
+      "sha256": "8c9d519de4a1652c2b923e11927be3818942235052cc67e6825d9705a09feaeb",
+      "bytes": 6560
+    }
+  ],
+  "gr2": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/monster2/ymir work/monster2/fire_king/fire_king.gr2",
+      "target": "gr2/fire_king.gr2",
+      "gitBlob": "f8b4daca2847ed43cc313f6369f91cbc08f7edbe",
+      "sha256": "7efdff1a84496804c5b13fec398c0795dbdfda81d08398a750ee5451c17de707",
+      "bytes": 76058
+    }
+  ]
+}
