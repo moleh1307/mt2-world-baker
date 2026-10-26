@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "sdk": [
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/include/SpeedTreeRT.h",
+      "target": "sdk/SpeedTreeRT.h",
+      "gitBlob": "301c5044e9e8a7743a2c1e1e5b1fb0f983a231a1",
+      "sha256": "262dce2d2ef6e1172de90413f4b3eadfad1385b4a569646077ecfc50de3c2e7b",
+      "bytes": 28110
+    },
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/library/SpeedTreeRT.lib",
+      "target": "sdk/SpeedTreeRT.lib",
+      "gitBlob": "d35e171b9ab182983f6f0f0f4fd03462055c9261",
+      "sha256": "beb0dcd40e7ee46158b6291b72d51a66c106d46dd87f6227802e17c9836be7e8",
+      "bytes": 50622
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "SpeedTreeRT.dll",
+      "target": "SpeedTreeRT.dll",
+      "gitBlob": "a16a441d475652d266bd5e5b5dbddc41ca8bf4ee",
+      "sha256": "ddba9b9b427d541ebc0bf1221fffc5d56a85d7b8ee0dfe6370a83a133da6967b",
+      "bytes": 1806336
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "gran211.dll",
+      "target": "gran211.dll",
+      "gitBlob": "b562905121e675ef9cbd9ee021f93e7308842496",
+      "sha256": "786954a7652133f793b1e974d791fed8d2ae24d5ad3accd92310d02ef18beca3",
+      "bytes": 672256
+    }
+  ],
+  "trees": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_beech_rt_winter.spt",
+      "target": "recipes/n1_beech_rt_winter.spt",
+      "gitBlob": "1ca562e8b1966a31135be9ab5ff513384ef97d0d",
+      "sha256": "0d766295707ebd0e6af56bfc49ed1bca8bc11f7b15f79be44e221bbe9e18d53e",
+      "bytes": 6682
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_beech_rt_winter02.spt",
+      "target": "recipes/n1_beech_rt_winter02.spt",
+      "gitBlob": "73b30126d7479f0f9663cccbd17913aad680bdeb",
+      "sha256": "e5497e163459d6ad06745e4b8a5ab95422fb59143e7aa76cf40ac65d242872b3",
+      "bytes": 6682
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_beech_rt_winter03.spt",
+      "target": "recipes/n1_beech_rt_winter03.spt",
+      "gitBlob": "53e13d60d1d8525708d0fb33b4badc2644a52d44",
+      "sha256": "41997e16e6110e21096ffa2d85f0d2135e7b8a4ec82a869f899a6325776a2225",
+      "bytes": 6682
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_coloradobluespruce_rt_01.spt",
+      "target": "recipes/n1_coloradobluespruce_rt_01.spt",
+      "gitBlob": "978f9211628a48b7917acb716dfc6f0c6357c2bc",
+      "sha256": "b60fa3d6329d76d4b85da226e88c36241bf8fb4e3a3fc5e1316f0a64d7e2c6ad",
+      "bytes": 5332
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_coloradobluespruce_rt_02.spt",
+      "target": "recipes/n1_coloradobluespruce_rt_02.spt",
+      "gitBlob": "0e8f6b7bb0792381eb65585b977f5c5921abef2d",
+      "sha256": "265aef90b037111a8d08bd4f258501872be9fc0b4bacf6ad17820241c5f959a1",
+      "bytes": 5332
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_coloradobluespruce_rt_03.spt",
+      "target": "recipes/n1_coloradobluespruce_rt_03.spt",
+      "gitBlob": "2f6e7983f34adcc6ad219b42bc0629ffc9e9acaf",
+      "sha256": "2e3fe98b0ca1aae0ad512741f9465e42653b4c4df7345bc915e6b6b3bf80d27d",
+      "bytes": 5332
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_commonolive_rt_winter.spt",
+      "target": "recipes/n1_commonolive_rt_winter.spt",
+      "gitBlob": "be44884a5ce017bf4b70542618b079e9165260a6",
+      "sha256": "4c3b7f1bc32ca54a581a22eb99a5229c066a2e3db84d73c4a260b41ecb4151d6",
+      "bytes": 6562
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_montereycypress_rt_winter_01.spt",
+      "target": "recipes/n1_montereycypress_rt_winter_01.spt",
+      "gitBlob": "17564db08fa208e8a776e3a3bd3b15034929ea7e",
+      "sha256": "e63e6fd8aec38f5a4dea10edce507870f834cf1da5fbd8b5e789dc75f773957c",
+      "bytes": 8844
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_montereycypress_rt_winter_02.spt",
+      "target": "recipes/n1_montereycypress_rt_winter_02.spt",
+      "gitBlob": "b689ce38d52136d8c6421a405090379a176fee04",
+      "sha256": "bd813274fcc6fc3c8bf26a9bc85eb6b3c18d0a4a68dd0a51e13183f4634680da",
+      "bytes": 8844
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_montereycypress_rt_winter_03.spt",
+      "target": "recipes/n1_montereycypress_rt_winter_03.spt",
+      "gitBlob": "2086d77cf559e964204fe682e0ff9f31ad497b17",
+      "sha256": "1af978f7efd1be5ba7af90056c4b933f74154c60a47a20fe88f4872aaf7bc862",
+      "bytes": 8844
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/n1_tulip_rt_winter_01.spt",
+      "target": "recipes/n1_tulip_rt_winter_01.spt",
+      "gitBlob": "fc73573b463f5dc010dcd58ccbec45ad2114bbab",
+      "sha256": "36389501b6156b934f960d826ac2e3ecae86430cf53dc88dd6c30f5a8415aba9",
+      "bytes": 6545
+    }
+  ],
+  "gr2": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Monster/ymir work/monster/bkfourth/bkfourth.gr2",
+      "target": "gr2/294efce8bb027b7471f3cfd2.gr2",
+      "gitBlob": "294efce8bb027b7471f3cfd26a27811564981e12",
+      "sha256": "320ade0f535c1e9b239cadbbfd78f699caabc58b6afd26e5da6644e065a878d2",
+      "bytes": 72707
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Monster/ymir work/monster/ice_snow_golem/ice_snow_golem.gr2",
+      "target": "gr2/9c441a55ab8aee2a940fca58.gr2",
+      "gitBlob": "9c441a55ab8aee2a940fca587883e3e9633278f9",
+      "sha256": "bf1f8cb189cc4860d080470600637372fde7d8f220d77faa8e2da75878a5a8b5",
+      "bytes": 63920
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Monster/ymir work/monster/thief1/20.gr2",
+      "target": "gr2/b977982ce45bed5b2950dc1b.gr2",
+      "gitBlob": "b977982ce45bed5b2950dc1b0f479d8788e261cb",
+      "sha256": "2abd7a5bf418cc21be6ae55ded2626028b8bae0d560a46fe9f10e1829bce0c08",
+      "bytes": 37779
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Zone/ymir work/zone/b/building/b1-024-10m-bridge.gr2",
+      "target": "gr2/c5c4f4e2700463500aa1de9f.gr2",
+      "gitBlob": "c5c4f4e2700463500aa1de9f6aa22e51c8df4cfd",
+      "sha256": "43f5837882a1bbdda3c0a645423d23f0467ed8a54075b4643c5b8f623528baee",
+      "bytes": 37138
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Zone/ymir work/zone/c/building/c1-013-6tower.gr2",
+      "target": "gr2/3ca0a26ddab92a0e4625537f.gr2",
+      "gitBlob": "3ca0a26ddab92a0e4625537f77646ba6b607b4b2",
+      "sha256": "25a3e7567e1722c9835c14ea43e3f09ffc1d34b453a61b9f6dc317fab8445ecc",
+      "bytes": 111406
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Zone/ymir work/zone/n/milgyo/milgyo_4fbuilding.gr2",
+      "target": "gr2/a288ff422b102ad32b61ef5e.gr2",
+      "gitBlob": "a288ff422b102ad32b61ef5e5a5b4bc62d7c7e24",
+      "sha256": "58c0cae5b5b20c13384bdfbc626d0a1842d05b4ee3e1e09ef64c6a3af7c8f035",
+      "bytes": 207663
+    }
+  ]
+}
