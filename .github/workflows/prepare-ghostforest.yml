@@ -1,0 +1,32 @@
+name: Prepare Ghost Forest original assets
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  original-assets:
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Download and verify exact public sources
+        run: python prepare_original_assets.py --manifest ghostforest-sources.json
+      - name: Compile bounded x86 preparation tools
+        shell: cmd
+        run: |
+          for /f "usebackq tokens=*" %%i in (`"%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -property installationPath`) do set VSROOT=%%i
+          call "%VSROOT%\VC\Auxiliary\Build\vcvars32.bat"
+          cl /nologo /EHsc /O2 /I sdk bake_spt.cpp /link sdk\SpeedTreeRT.lib /OUT:bake_spt.exe
+          if errorlevel 1 exit /b 1
+          cl /nologo /EHsc /O2 repair_gr2.cpp /link /OUT:repair_gr2.exe
+          if errorlevel 1 exit /b 1
+      - name: Prepare three trees and three original GR2 files
+        run: python run_original_assets.py --manifest ghostforest-sources.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: prepared-ghostforest-assets
+          path: outputs/
+          retention-days: 3
+          if-no-files-found: error

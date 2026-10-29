@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "sdk": [
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/include/SpeedTreeRT.h",
+      "target": "sdk/SpeedTreeRT.h",
+      "gitBlob": "301c5044e9e8a7743a2c1e1e5b1fb0f983a231a1",
+      "sha256": "262dce2d2ef6e1172de90413f4b3eadfad1385b4a569646077ecfc50de3c2e7b",
+      "bytes": 28110
+    },
+    {
+      "repo": "https://github.com/NakiuS/Metin2Client",
+      "commit": "40e2d9fef3bed9fa56a113001ae678efb72e06d3",
+      "path": "extern/library/SpeedTreeRT.lib",
+      "target": "sdk/SpeedTreeRT.lib",
+      "gitBlob": "d35e171b9ab182983f6f0f0f4fd03462055c9261",
+      "sha256": "beb0dcd40e7ee46158b6291b72d51a66c106d46dd87f6227802e17c9836be7e8",
+      "bytes": 50622
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "SpeedTreeRT.dll",
+      "target": "SpeedTreeRT.dll",
+      "gitBlob": "a16a441d475652d266bd5e5b5dbddc41ca8bf4ee",
+      "sha256": "ddba9b9b427d541ebc0bf1221fffc5d56a85d7b8ee0dfe6370a83a133da6967b",
+      "bytes": 1806336
+    },
+    {
+      "repo": "https://github.com/Metin2Learn/ymir-work",
+      "commit": "933f25126cb9b827b29ddaffe9d262f4321ee433",
+      "path": "gran211.dll",
+      "target": "gran211.dll",
+      "gitBlob": "b562905121e675ef9cbd9ee021f93e7308842496",
+      "sha256": "786954a7652133f793b1e974d791fed8d2ae24d5ad3accd92310d02ef18beca3",
+      "bytes": 672256
+    }
+  ],
+  "trees": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/b3_beech_rt2.spt",
+      "target": "recipes/b3_beech_rt2.spt",
+      "gitBlob": "6bc26c8b59f1c8b2759862c2463f3b466083a465",
+      "sha256": "65846f0ea0ac8ace155a11cc6a41631d3330e6db25ba9a9c8b8171b96fdfde67",
+      "bytes": 6796
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/b3_shingleoak_rt5.spt",
+      "target": "recipes/b3_shingleoak_rt5.spt",
+      "gitBlob": "234e2fafe0875b510c8e72b3576f9187c97d2b33",
+      "sha256": "dbc300acb7356f4f51e897a2e248a2883241ea570d5d8cded218b31401206534",
+      "bytes": 6550
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/Tree/ymir work/tree/b3_umbrellathorn_rt_flowers4.spt",
+      "target": "recipes/b3_umbrellathorn_rt_flowers4.spt",
+      "gitBlob": "06ee17529abf4a5bc5e52f2928bb0739319abbae",
+      "sha256": "44ec99e53b3158a6619ec7a5cb4110bfb67ff9943224b068a8bc99fa1d92c0d0",
+      "bytes": 8351
+    }
+  ],
+  "gr2": [
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/monster2/ymir work/monster2/ent_black/ent_black.gr2",
+      "target": "models/ent_black__ent_black.gr2",
+      "gitBlob": "fbe85eddf0e77c0a9758bc3ae13cb02c99b52b19",
+      "sha256": "2915f842605dc9db3ad949e8ef26c0c20c4b78509ae0d712951809165dc32d49",
+      "bytes": 49102
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/monster2/ymir work/monster2/ent_guru/00_1.gr2",
+      "target": "models/ent_guru__00_1.gr2",
+      "gitBlob": "81a8ff0b9492cfbffa9dc4323b3907f84f8915de",
+      "sha256": "3f110a5aaafa498dbda9a27b63d1f0aab724bde0f6f1a1ea89bd79a7ac24afd5",
+      "bytes": 60777
+    },
+    {
+      "repo": "https://github.com/d1str4ught/m2dev-client",
+      "commit": "ecef2dcdb89f5d0344677b2902ad175809b70f52",
+      "path": "assets/monster2/ymir work/monster2/ent_red/00.gr2",
+      "target": "models/ent_red__00.gr2",
+      "gitBlob": "01a5e8aa7ef2dd23c4611a5fc045c65682955890",
+      "sha256": "b9379287e1ac73571ee74af92937fdc3873b1dabe53f9f4f13f516796ab3419e",
+      "bytes": 42579
+    }
+  ]
+}
